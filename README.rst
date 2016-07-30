@@ -24,7 +24,7 @@ Download all the files. The basic protocol is:
 
 
   **Note**
-  If you are having problems with the path to the XLAM in your worksheet appearing as the complete path to the xlam (but not the correct path), you might need to go into ``Data->Update Links`` in Excel, select CoolProp.xlam, and select “Change Source...” and select the location of your xlam file.  That should update all the links.
+  If you are having problems with the path to the XLAM in your worksheet appearing as the complete path to the xlam (but not the correct path), you might need to go into ``Data->Update Links`` in Excel, select CoolProp.xlam, and select``Change Source...`` and select the location of your xlam file.  That should update all the links.
 
 
 Pre-compiled Binaries for OSX
