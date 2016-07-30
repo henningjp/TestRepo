@@ -4,7 +4,7 @@ Excel Wrapper
 Pre-compiled Binaries for windows
 ---------------------------------
 
-Pre-compiled release binaries can be downloaded from [MicrosoftExcel](http://sourceforge.net/projects/coolprop/files/CoolProp/6.0.0/MicrosoftExcel).  Development binaries coming from the buildbot server can be found at [MicrosoftExcel](http://sourceforge.net/projects/coolprop/files/CoolProp/nightly/MicrosoftExcel).
+Pre-compiled release binaries can be downloaded from 'MicrosoftExcel <http://sourceforge.net/projects/coolprop/files/CoolProp/6.0.0/MicrosoftExcel>'_ .  Development binaries coming from the buildbot server can be found at [MicrosoftExcel](http://sourceforge.net/projects/coolprop/files/CoolProp/nightly/MicrosoftExcel).
 
 Download all the files. The basic protocol is:
 
