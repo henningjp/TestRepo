@@ -10,7 +10,9 @@ Download all the files. The basic protocol is:
 
 **Part 1:**
 
-1.  Copy the files `CoolProp.dll` and `CoolProp_x64.dll` to c:\\CoolProp folder. Technically you only need the DLL that matches your system architecture (`CoolProp.dll` = 32-bit, `CoolProp_x64.dll` = 64-bit), but it can’t hurt to copy both if you don’t know which system architecture version you have.
+1.  Copy the files `CoolProp.dll` and `CoolProp_x64.dll` to C:\\CoolProp folder. Technically you only need the DLL that matches your system architecture (`CoolProp.dll` = 32-bit, `CoolProp_x64.dll` = 64-bit), but it can’t hurt to copy both if you don’t know which system architecture version you have.
+2.  Copy the file **CoolProp.xlam** to a convenient accessible location (it could go in the C:\\CoolProp folder as well).
+3.  **CoolProp.xlsx** can be copied to a working directory in ``My Documents``.
 
 **Part 2:**
 
@@ -18,9 +20,9 @@ Download all the files. The basic protocol is:
 2.  Go to the menu ``File–>Options–>Add-Ins``
 3.  At the bottom, select ``Manage: Excel Add-ins``, then click the Go.. button
 4.  Click the browse button
-5.  Browse to the file ``CoolProp.xlam`` you downloaded, select it
+5.  Browse to the file **CoolProp.xlam** you downloaded, select it
 6.  Make sure the CoolProp Add-in is selected (box checked).
-7.  Open the file ``TestExcel.xlsx`` and try to re-evaluate one of the cells - they should work now
+7.  Open the file **TestExcel.xlsx** and try to re-evaluate one of the cells - they should work now
 
 
   **Note**
