@@ -10,7 +10,7 @@ Download all the files. The basic protocol is:
 
 **Part 1:**
 
-1.  Copy the files `CoolProp.dll` and `CoolProp_x64.dll` to C:\\CoolProp folder. Technically you only need the DLL that matches your system architecture (`CoolProp.dll` = 32-bit, `CoolProp_x64.dll` = 64-bit), but it can’t hurt to copy both if you don’t know which system architecture version you have.
+1.  Copy the files **CoolProp.dll** and **CoolProp_x64.dll** to C:\\CoolProp folder. Technically you only need the DLL that matches your system architecture (`CoolProp.dll` = 32-bit, `CoolProp_x64.dll` = 64-bit), but it can’t hurt to copy both if you don’t know which system architecture version you have.  The excel macro will select the correct one and use it.
 2.  Copy the file **CoolProp.xlam** to a convenient accessible location (it could go in the C:\\CoolProp folder as well).
 3.  **CoolProp.xlsx** can be copied to a working directory in ``My Documents``.
 
