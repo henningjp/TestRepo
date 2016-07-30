@@ -24,7 +24,7 @@ Download all the files. The basic protocol is:
 
 ::
   Note
-  If you are having problems with the path to the XLAM in your worksheet appearing as the complete path to the xlam (but not the correct path), you might need to go into `Data->Update Links` in Excel, select CoolProp.xlam, and select “Change Source...” and select the location of your xlam file.  That should update all the links.
+  If you are having problems with the path to the XLAM in your worksheet appearing as the complete path to the xlam (but not the correct path), you might need to go into ``Data->Update Links`` in Excel, select CoolProp.xlam, and select “Change Source...” and select the location of your xlam file.  That should update all the links.
 
 
 Pre-compiled Binaries for OSX
@@ -40,9 +40,9 @@ Download the xlam from `MicrosoftExcel <http://sourceforge.net/projects/coolprop
 
 1.  Open Excel 2011 for Mac
 
-2.  Go to the menu ''Tools–>Add-Ins''
+2.  Go to the menu ``Tools–>Add-Ins``
 
-3.  Click the ''Select...'' button
+3.  Click the ``Select...`` button
 
 4.  Browse to the file CoolProp.xlam you downloaded, select it
 
@@ -53,9 +53,10 @@ Download the xlam from `MicrosoftExcel <http://sourceforge.net/projects/coolprop
     =PropsSI("T","P",101325,"Q",0,"Water")
 
 
-If it doesn’t work and you get error number 53, it might be because you have a 64-bit .dylib file and you want a 32-bit .dylib file.  For instance when you run the `file` command on your .dylib, you should see something like: ::
+If it doesn’t work and you get error number 53, it might be because you have a 64-bit .dylib file and you want a 32-bit .dylib file.  For instance when you run the ``file`` command on your .dylib, you should see something like: ::
 
-    $ file libCoolProp.dylib libCoolProp.dylib: Mach-O dynamically linked shared library i386
+    $ file libCoolProp.dylib
+    libCoolProp.dylib: Mach-O dynamically linked shared library i386
 
 
 User-compiled Binaries
@@ -63,7 +64,7 @@ User-compiled Binaries
 
 **Common Requirements**
 
-Compilation of the Excel wrapper requires a few [common wrapper pre-requisites](../index.html#wrapper-common-prereqs)
+Compilation of the Excel wrapper requires a few `common wrapper pre-requisites <http://www.coolprop.org/coolprop/wrappers/index.html#wrapper-common-prereqs>`_
 
 
 **Build**
