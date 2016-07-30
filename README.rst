@@ -15,12 +15,12 @@ Download all the files. The basic protocol is:
 **Part 2:**
 
 1.  Open Excel
-2.  Go to the menu `File–>Options–>Add-Ins`
-3.  At the bottom, select `Manage: Excel Add-ins`, then click the Go.. button
+2.  Go to the menu ``File–>Options–>Add-Ins``
+3.  At the bottom, select ``Manage: Excel Add-ins``, then click the Go.. button
 4.  Click the browse button
-5.  Browse to the file `CoolProp.xlam` you downloaded, select it
+5.  Browse to the file ``CoolProp.xlam`` you downloaded, select it
 6.  Make sure the CoolProp Add-in is selected (box checked).
-7.  Open the file `TestExcel.xlsx` and try to re-evaluate one of the cells - they should work now
+7.  Open the file ``TestExcel.xlsx`` and try to re-evaluate one of the cells - they should work now
 
 ::
   Note
