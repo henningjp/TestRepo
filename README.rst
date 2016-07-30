@@ -70,7 +70,8 @@ Compilation of the Excel wrapper requires a few [common wrapper pre-requisites](
 
 The instructions here are for a 64-bit windows system that will compile both 64-bit and 32-bit versions of the DLL:
 
-::
+.. code: bash
+
 # Check out the sources for CoolProp
 git clone https://github.com/CoolProp/CoolProp --recursive
 # Move into the folder you just created
@@ -92,4 +93,3 @@ cd ../..
 # Copy the generated DLL
 copy build\32bit__stdcall\CoolProp.dll c:\CoolProp
 copy build\64bit\CoolProp.dll c:\CoolProp
-...
