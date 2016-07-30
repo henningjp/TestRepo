@@ -70,26 +70,27 @@ Compilation of the Excel wrapper requires a few [common wrapper pre-requisites](
 
 The instructions here are for a 64-bit windows system that will compile both 64-bit and 32-bit versions of the DLL:
 
-.. code:: bash
+.. code-block:: bash
 
-# Check out the sources for CoolProp
-git clone https://github.com/CoolProp/CoolProp --recursive
-# Move into the folder you just created
-cd CoolProp
-# Make a build folder for the 32-bit DLL
-mkdir build/32bit__stdcall && cd build/32bit__stdcall
-# Build the MSVC project using CMake
-cmake ../.. -G "Visual Studio 10" -DCOOLPROP_SHARED_LIBRARY=ON -DCOOLPROP_STDCALL_LIBRARY=ON
-# Make the shared library
-cmake --build . --config Release
-cd ../..
-# Make a build folder for the 64-bit DLL
-mkdir build/64bit && cd build/64bit
-# Build the MSVC project using CMake
-cmake ../.. -G "Visual Studio 10 Win64" -DCOOLPROP_SHARED_LIBRARY=ON
-# Make the shared library
-cmake --build . --config Release
-cd ../..
-# Copy the generated DLL
-copy build\32bit__stdcall\CoolProp.dll c:\CoolProp
-copy build\64bit\CoolProp.dll c:\CoolProp
+  # Check out the sources for CoolProp
+  git clone https://github.com/CoolProp/CoolProp --recursive
+  # Move into the folder you just created
+  cd CoolProp
+  # Make a build folder for the 32-bit DLL
+  mkdir build/32bit__stdcall && cd build/32bit__stdcall
+  # Build the MSVC project using CMake
+  cmake ../.. -G "Visual Studio 10" -DCOOLPROP_SHARED_LIBRARY=ON -DCOOLPROP_STDCALL_LIBRARY=ON
+  # Make the shared library
+  cmake --build . --config Release
+  cd ../..
+  # Make a build folder for the 64-bit DLL
+  mkdir build/64bit && cd build/64bit
+  # Build the MSVC project using CMake
+  cmake ../.. -G "Visual Studio 10 Win64" -DCOOLPROP_SHARED_LIBRARY=ON
+  # Make the shared library
+  cmake --build . --config Release
+  cd ../..
+  # Copy the generated DLL
+  copy build\32bit__stdcall\CoolProp.dll c:\CoolProp
+  copy build\64bit\CoolProp.dll c:\CoolProp
+
