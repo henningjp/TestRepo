@@ -28,6 +28,8 @@ Download all the files. The basic protocol is:
   **Note 2**
   If you are having problems with the path to the XLAM in your worksheet appearing as the complete path to the xlam (but not the correct path), you might need to go into ``Data->Update Links`` in Excel, select CoolProp.xlam, and select``Change Source...`` and select the location of your xlam file.  That should update all the links.
 
+
+
   **Note 1** **Alertnate DLL Location** - Some environments, lock down the C:\\ drive from normal users for security reasons.  If this is the case, you will need to put the DLL files in an alternate location (possibly on a shared network location for all users).  To do this, you will need to:
   1. Place the CoolProp DLL files in the alternate location
   2. Place the CoolProp xlam file in a writable location and open it.
