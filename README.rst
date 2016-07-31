@@ -81,7 +81,7 @@ User-compiled Binaries
 Compilation of the Excel wrapper requires a few `common wrapper pre-requisites <http://www.coolprop.org/coolprop/wrappers/index.html#wrapper-common-prereqs>`_
 
 
-**Build**
+**Build (Windows)**
 
 MS Excel requires the CoolProp shared library, or Dynamic Link Library (DLL) on Windows, and will use either the 64-bit version or the 32-bit, ``__stdcall`` version.  The instructions here are for a 64-bit windows system that will use Microsoft Visual Studio 2010 to compile *both* the 64-bit and 32-bit versions of the DLL.  
 
@@ -106,12 +106,28 @@ MS Excel requires the CoolProp shared library, or Dynamic Link Library (DLL) on 
   cmake --build . --config Release
   cd ../..
   # Copy the generated DLL
-  copy build\32bit__stdcall\CoolProp.dll c:\CoolProp
-  copy build\64bit\CoolProp.dll c:\CoolProp
+  copy build\32bit__stdcall\CoolProp.dll c:\CoolProp\CoolProp.dll
+  copy build\64bit\CoolProp.dll c:\CoolProp\CoolProp_x64.dll
 
-This script should be adjusted for your specific compiler, replacing "Visual Studio 10" with your compiler name/release.
+The above script should be adjusted for your specific compiler, replacing "Visual Studio 10" with your compiler name/release.
 
- **NOTE:** A script or instructions is needed here for building under OSX...
+**Build (OSX)**
 
+On OSX there is no calling convention to worry about, and only the 32-bit compilation is needed.  You can force 32-bit compilation using -DFORCE_BITNESS_32=ON.  These instructions will compile both the 32-bit library on OSX.
 
- 
+.. code-block:: bash
+
+  # Check out the sources for CoolProp
+  git clone https://github.com/CoolProp/CoolProp --recursive
+  # Move into the folder you just created
+  cd CoolProp
+  # Make a build folder
+  mkdir build && cd build
+  # Generate builder
+  cmake .. -DCOOLPROP_SHARED_LIBRARY=ON -DFORCE_BITNESS_32=ON -DCMAKE_BUILD_TYPE=Release
+  # Build
+  cmake --build .
+  cd ..
+  # Copy the generated DLL
+  cp build/libCoolProp.dylib ${HOME}/lib
+
