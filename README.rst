@@ -71,7 +71,7 @@ Compilation of the Excel wrapper requires a few `common wrapper pre-requisites <
 
 **Build**
 
-MS Excel requires the CoolProp shared library, or Dynamic Link Library (DLL) on Windows, and will use either the 64-bit version or the 32-bit, ``__stdcall`` version.  The instructions here are for a 64-bit windows system that will use Microsoft Visual Studio 2010 to compile *both* the 64-bit and 32-bit versions of the DLL.  This script should be adjusted for your specific compiler.
+MS Excel requires the CoolProp shared library, or Dynamic Link Library (DLL) on Windows, and will use either the 64-bit version or the 32-bit, ``__stdcall`` version.  The instructions here are for a 64-bit windows system that will use Microsoft Visual Studio 2010 to compile *both* the 64-bit and 32-bit versions of the DLL.  
 
 .. code-block:: bash
 
@@ -97,7 +97,7 @@ MS Excel requires the CoolProp shared library, or Dynamic Link Library (DLL) on 
   copy build\32bit__stdcall\CoolProp.dll c:\CoolProp
   copy build\64bit\CoolProp.dll c:\CoolProp
 
-
+This script should be adjusted for your specific compiler, replacing "Visual Studio 10" with your compiler name/release.
 
  **NOTE:** A script or instructions is needed here for building under OSX...
 
