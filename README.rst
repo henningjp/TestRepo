@@ -24,14 +24,14 @@ Download all the files. The basic protocol is:
 6.  Make sure the CoolProp Add-in is selected (box checked) and close the Add-in Manager.
 7.  Open the file **TestExcel.xlsx** and try to re-evaluate one of the cells; the CoolProp formulas should all be working now. (To recalculate the entire worksheet, press ``Ctrl``-``Alt``-``Shift``-``F9`` ) [#]_
 
-  **Note 1 -** **Alertnate DLL Location** - Some environments, lock down the C:\\ drive from normal users for security reasons.  If this is the case, you will need to put the DLL files in an alternate location (possibly on a shared network location for all users).  To do this, you will need to:
+  **Note [#] -** **Alertnate DLL Location** - Some environments, lock down the C:\\ drive from normal users for security reasons.  If this is the case, you will need to put the DLL files in an alternate location (possibly on a shared network location for all users).  To do this, you will need to:
   1. Place the CoolProp DLL files in the alternate location
   2. Place the CoolProp xlam file in a writable location and open it.
   3. You will get an Excel error, ``File not found - C:\\CoolProp\\CoolProp.dll``
 
 ..
 
-  **Note 2 -** 
+  **Note [#] -** 
   If you are having problems with the path to the XLAM in your worksheet appearing as the complete path to the xlam (but not the correct path), you might need to go into ``Data->Update Links`` in Excel, select CoolProp.xlam, and select``Change Source...`` and select the location of your xlam file.  That should update all the links.
 
 
