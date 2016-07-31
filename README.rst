@@ -28,10 +28,10 @@ Download all the files. The basic protocol is:
 
   1. Place the CoolProp DLL files in the alternate location
   2. Place the CoolProp xlam file in a writable location and open it.
-  3. You will get an Excel error, ``File not found - C:\\CoolProp\\CoolProp.dll``.  Clicking **Ok** on the error will only clear the first of many.  Press and hold the ``**Enter**`` key until all of the errors clear.
-  4. Make sure that the Developer ribbon is visible on the main menu.  If not:
-      - Go to **File | Options** on the main menu and select Cusomize Ribbon
-      - Make sure that the Developer main tab is checked (ON)
+  3. You will get an Excel error, ``File not found - C:\\CoolProp\\CoolProp.dll``.  Clicking **Ok** on the error will only clear the first of many.  Press and hold the **``Enter``** key until all of the errors clear.
+  4. Make sure that the Developer ribbon is visible on the main menu.  If not
+    - Go to **File | Options** on the main menu and select Cusomize Ribbon
+    - Make sure that the Developer main tab is checked (ON)
   5. Open the Visual Basic editor and use **Edit | Replace** to replace all occurances of **C:\\CoolProp** with the path to the alternate location for your CoolProp.dll files, making sure to press the save button (disk image) or **File | Save** before exiting the VBA editor.
   6. Save the CoolProp.xlam file.
 
