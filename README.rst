@@ -97,6 +97,8 @@ MS Excel requires the CoolProp shared library, or Dynamic Link Library (DLL) on 
   copy build\32bit__stdcall\CoolProp.dll c:\CoolProp
   copy build\64bit\CoolProp.dll c:\CoolProp
 
+
+
  **NOTE:** A script or instructions is needed here for building under OSX...
 
 
