@@ -18,11 +18,11 @@ Download all the files. The basic protocol is:
 
 1.  Open Excel
 2.  Go to the menu ``File–>Options–>Add-Ins``
-3.  At the bottom, select ``Manage: Excel Add-ins``, then click the Go.. button
-4.  Click the browse button
-5.  Browse to the file **CoolProp.xlam** you downloaded, select it
-6.  Make sure the CoolProp Add-in is selected (box checked).
-7.  Open the file **TestExcel.xlsx** and try to re-evaluate one of the cells - they should work now
+3.  At the bottom, select ``Manage: Excel Add-ins``, then click the ``Go...`` button
+4.  Click the ``Browse`` button on the Add-in Manager panel
+5.  Browse to the file **CoolProp.xlam** you downloaded and select it
+6.  Make sure the CoolProp Add-in is selected (box checked) and close the Add-in Manager.
+7.  Open the file **TestExcel.xlsx** and try to re-evaluate one of the cells; the CoolProp formulas should all be working now. (To recalculate the entire worksheet, press ``Ctrl``-``Alt``-``Shift``-``F9`` )
 
 
   **Note**
