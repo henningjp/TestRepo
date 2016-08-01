@@ -181,10 +181,10 @@ Value3 =
     double quoted name of the fluid to evaluate
 
 Names =
-    Range of cells containing fluid names (as text)
+    range of cells containing fluid names (as text)
 
 Fractions =
-    Range of cells containing mole fractions of the corresponding fluids in the **Names** range
+    range of cells containing mole fractions of the corresponding fluids in the **Names** range
 
 
-  See `CoolProp.org <http://www.coolprop.org>`_ for more details on usage.
+See `CoolProp.org <http://www.coolprop.org>`_ for more details on usage.
