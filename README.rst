@@ -137,17 +137,17 @@ Usage
 The following CoolProp funcitons are implemented as Excel Functions (see CoolProp.xlsx for examples)
 
 
-- **get_global_param_string**("param")
-- **PropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"FluidString")
-- **Props1SI**("FluidString","OutputName")
-- **PhaseSI**("Input1Name",Value1,"Input2Name",Value2,"FluidString")
-- **HAPropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"Input3Name",Value3)
+- **get_global_param_string("param")** 
+- **PropsSI("OutputName","Input1Name",Value1,"Input2Name",Value2,"FluidString")** 
+- **Props1SI("FluidString","OutputName")** 
+- **PhaseSI("Input1Name",Value1,"Input2Name",Value2,"FluidString")** 
+- **HAPropsSI("OutputName","Input1Name",Value1,"Input2Name",Value2,"Input3Name",Value3)** 
 
   
 and utility routine
 
   
-- **MixtureString**(Names,Fractions)
+- **MixtureString(Names,Fractions)** 
 
   
 where
