@@ -113,7 +113,7 @@ The above script should be adjusted for your specific compiler, replacing "Visua
 
 **Build (OSX)**
 
-On OSX there is no calling convention to worry about, and only the 32-bit compilation is needed.  You can force 32-bit compilation using -DFORCE_BITNESS_32=ON.  These instructions will compile both the 32-bit library on OSX.
+On OSX there is no calling convention to worry about, and only the 32-bit compilation is needed.  You can force 32-bit compilation using -DFORCE_BITNESS_32=ON.  These instructions will compile both the 32-bit library needed for Excel on OSX.
 
 .. code-block:: bash
 
@@ -130,4 +130,34 @@ On OSX there is no calling convention to worry about, and only the 32-bit compil
   cd ..
   # Copy the generated DLL
   cp build/libCoolProp.dylib ${HOME}/lib
+
+Usage
+------------------------
+
+The following CoolProp funcitons are implemented as Excel Functions (see CoolProp.xlsx for examples)::
+
+    **get_global_param_string**("param")
+    **PropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"FluidString")
+    **Props1SI**("FluidString","OutputName")
+    **PhaseSI**("Input1Name",Value1,"Input2Name",Value2,"FluidString")
+    **HAPropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"Input3Name",Value3)
+    
+    and utility routine
+    
+    MixtureString(Names,Fractions)
+    
+    where
+    
+    "param": = "version", "gitrevision", "fluids_list","parameter_list", or "predefined_mixtures"
+    "OutputName: = double quoted name of the fluid property to output
+    "Input1Name: = double quoted name of the first input state property
+    Value1: = the value, in SI units, of the first input state property
+    "Input2Name: = double quoted name of the second input state property
+    Value2: = the value, in SI units, of the second input state property
+    "Input3Name: = double quoted name of the third input state property; typically humidity ratio, "R"
+    Value3: = the value, in SI units, of the third input state property
+    "FluidString": = double quoted name of the fluid to evaluate
+
+
+
 
