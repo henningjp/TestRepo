@@ -156,35 +156,37 @@ where
 "param" =      
     "version", "gitrevision", "fluids_list","parameter_list", or "predefined_mixtures"
 
-"OutputName"
+"OutputName" =
     double quoted name of the fluid property to output
    
-"Input1Name" 
+"Input1Name" =
     double quoted name of the first input state property
  
-Value1          
+Value1 =  
     the value, in SI units, of the first input state property
 
-"Input2Name"    
+"Input2Name" =  
     double quoted name of the second input state property
 
-Value2          
+Value2 =  
     the value, in SI units, of the second input state property
 
-"Input3Name"    
+"Input3Name" =  
     double quoted name of the third input state property; typically humidity ratio, "R"
 
-Value3          
+Value3 =   
     the value, in SI units, of the third input state property
   
-"FluidString"   
+"FluidString" =
     double quoted name of the fluid to evaluate
 
-Names
+Names =
     Range of cells containing fluid names (as text)
 
-Fractions
+Fractions =
     Range of cells containing mole fractions of the corresponding fluids in the **Names** range
 
 
+Note
 
+See `CoolProp.org <http://www.coolprop.org>'_ for more details on usage.
