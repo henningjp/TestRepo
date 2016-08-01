@@ -153,7 +153,7 @@ and utility routine
 where
 
 
-"param"         
+"param" =      
     "version", "gitrevision", "fluids_list","parameter_list", or "predefined_mixtures"
 
 "OutputName"
