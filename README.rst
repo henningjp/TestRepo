@@ -180,6 +180,11 @@ Value3
 "FluidString"   
     double quoted name of the fluid to evaluate
 
+Names
+    Range of cells containing fluid names (as text)
+
+Fractions
+    Range of cells containing mole fractions of the corresponding fluids in the **Names** range
 
 
 
