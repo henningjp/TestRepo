@@ -187,6 +187,4 @@ Fractions =
     Range of cells containing mole fractions of the corresponding fluids in the **Names** range
 
 
-Note
-
-See `CoolProp.org <http://www.coolprop.org>'_ for more details on usage.
+  See `CoolProp.org <http://www.coolprop.org>`_ for more details on usage.
