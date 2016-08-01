@@ -136,27 +136,27 @@ Usage
 
 The following CoolProp funcitons are implemented as Excel Functions (see CoolProp.xlsx for examples):
 
-  **get_global_param_string**("param")
-  **PropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"FluidString")
-  **Props1SI**("FluidString","OutputName")
-  **PhaseSI**("Input1Name",Value1,"Input2Name",Value2,"FluidString")
-  **HAPropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"Input3Name",Value3)
+**get_global_param_string**("param")
+**PropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"FluidString")
+**Props1SI**("FluidString","OutputName")
+**PhaseSI**("Input1Name",Value1,"Input2Name",Value2,"FluidString")
+**HAPropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"Input3Name",Value3)
   
 and utility routine
   
-  **MixtureString**(Names,Fractions)
+**MixtureString**(Names,Fractions)
   
 where
  
-   "param"         = "version", "gitrevision", "fluids_list","parameter_list", or "predefined_mixtures"
-   "OutputName"    = double quoted name of the fluid property to output
-   "Input1Name"    = double quoted name of the first input state property
-   Value1          = the value, in SI units, of the first input state property
-   "Input2Name"    = double quoted name of the second input state property
-   Value2          = the value, in SI units, of the second input state property
-   "Input3Name"    = double quoted name of the third input state property; typically humidity ratio, "R"
-   Value3          = the value, in SI units, of the third input state property
-   "FluidString"   = double quoted name of the fluid to evaluate
+   "param"         "version", "gitrevision", "fluids_list","parameter_list", or "predefined_mixtures"
+   "OutputName"    double quoted name of the fluid property to output
+   "Input1Name"    double quoted name of the first input state property
+   Value1          the value, in SI units, of the first input state property
+   "Input2Name"    double quoted name of the second input state property
+   Value2          the value, in SI units, of the second input state property
+   "Input3Name"    double quoted name of the third input state property; typically humidity ratio, "R"
+   Value3          the value, in SI units, of the third input state property
+   "FluidString"   double quoted name of the fluid to evaluate
 
 
 
