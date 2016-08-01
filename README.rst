@@ -134,20 +134,25 @@ On OSX there is no calling convention to worry about, and only the 32-bit compil
 Usage
 ------------------------
 
-The following CoolProp funcitons are implemented as Excel Functions (see CoolProp.xlsx for examples):
+The following CoolProp funcitons are implemented as Excel Functions (see CoolProp.xlsx for examples)
+
 
 **get_global_param_string**("param")
 **PropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"FluidString")
 **Props1SI**("FluidString","OutputName")
 **PhaseSI**("Input1Name",Value1,"Input2Name",Value2,"FluidString")
 **HAPropsSI**("OutputName","Input1Name",Value1,"Input2Name",Value2,"Input3Name",Value3)
+
   
 and utility routine
+
   
 **MixtureString**(Names,Fractions)
+
   
 where
- 
+
+
    "param"         "version", "gitrevision", "fluids_list","parameter_list", or "predefined_mixtures"
    "OutputName"    double quoted name of the fluid property to output
    "Input1Name"    double quoted name of the first input state property
