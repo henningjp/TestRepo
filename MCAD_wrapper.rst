@@ -4,8 +4,8 @@ Wrapper of IF97 for MathCAD 15 and Mathcad Prime
 This wrapper will provide User Defined (Custom) Functions in Mathcad 15 (or Prime) that provide thermodynamic and transport properties for water/steam at specified state points based on the IAPWS Industrial Formulation for the Properties of Water and Steam.  While these properties can also be accessed through the CoolProp add-in, this wrapper provides **_only_** these properties without the overhead of CoolProp.
 
 This wrapper been developed and tested on Mathcad 15.0 (any maintenance release) and Mathcad Prime 3.0/3.1.  It May work on earlier versions of Mathcad and Mathcad Prime, but it has not been tested there.
-  
-  
+"  "
+"  "
 To Use
 ======
 
@@ -14,6 +14,7 @@ To Use
 * Install the Add-in files by copying them to the appropriate Mathcad 15/Prime Installation directories.  
 
 * View ``if97_verification.xmcdz`` or ``if97_verification.pdf`` for examples of using the functions.
+  
   
   
 To Build
@@ -83,6 +84,7 @@ Build the Project
 
     cmake --build . --config Release
   
+  "  "
   
 Installing
 ==========
@@ -97,6 +99,7 @@ Mathcad 15
 Mathcad Prime
 ----------
 * Copy the ``Release\IF97.dll`` file to ``C:\Program Files\PTC\Mathcad Prime 3.1\Custom Functions`` or equivalent for your version of Mathcad Prime.
+  
   
   
 Compiler Flags
