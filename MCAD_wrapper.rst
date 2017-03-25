@@ -8,16 +8,16 @@ This wrapper been developed and tested on Mathcad 15.0 (any maintenance release)
 To Use
 ======
 
-* Compile in VS2010 or later using the solution and project files (see below)
+* Build the Add-in DLL in VS2008 or later using the build instructions below.
 
-* Copy the if97.dll file to C:\\Program Files (x86)\\Mathcad\\Mathcad 15\\userefi or equivalent for your version (this will be done automatically by the project)  
-  
-* Copy the IF97_EN.xml to C:\\Program Files (x86)\\Mathcad\\Mathcad 15\\doc\\funcdoc.  Functions and descriptions will then be available in the Mathcad 15 interface under Insert|Function or the Functions button on the toolbar.
+* Install the Add-in files by copying them to the appropriate Mathcad 15/Prime Installation directories.  
 
 * View if97_verification.xmcdz or if97_verification.pdf for examples of using the functions.
 
 To Build
 ========
+
+This build procedure very closely follows the build procedure for CoolProp.
 
 Pre-Requisites
 --------------
@@ -39,38 +39,62 @@ Download the IF97 Repository
 
     cd IF97
 
-Building for Mathcad 15
------------------------
+Make the Build for Mathcad 15
+-----------------------------
 
-* Go to the top level CoolProp directory and make a build directory (something like \build15)::
+* Go to the top level IF97 directory and make a build directory (something like \build15)::
 
     mkdir build15 
     cd build15
 
 * Build the makefile using CMake (Note: Mathcad 15 is 32-bit)::
 
-    cmake .. -DCOOLPROP_MATHCAD15_MODULE=ON 
-             -DCOOLPROP_MATHCAD15_ROOT="C:/Program Files (x86)/Mathcad/Mathcad 15"  
+    cmake .. -DIF97_MATHCAD15_MODULE=ON 
+             -DIF97_MATHCAD15_ROOT="C:/Program Files (x86)/Mathcad/Mathcad 15"  
              -G "Visual Studio 10 2010" 
              -DCMAKE_VERBOSE_MAKEFILE=ON 
+	     
+	     (Insert your version of Visual Studio for the -G option.)
+
+Make the Build for Mathcad Prime
+--------------------------------
+
+* Go to the top level IF97 directory and make a build directory (something like \buildPrime)::
+
+    mkdir buildPrime
+    cd buildPrime
+
+* Build the makefile using CMake (Note: Mathcad 15 is 32-bit)::
+
+    cmake .. -DIF97_PRIME_MODULE=ON 
+             -DIF97_PRIME_ROOT="C:/Program Files (x86)/Mathcad/Mathcad 15"  
+             -G "Visual Studio 10 2010 -Win64" 
+             -DCMAKE_VERBOSE_MAKEFILE=ON 
+	     
+	     (Insert your version of Visual Studio for the -G option.)
+
+Build the Project
+-----------------
 
 * Open the resulting IF97.sln file in Visual Studio and build the IF97 project, making sure that `Release` and `x64` are selected in the configuration and platform.  Alternatively, you can make the dynamic library (DLL) from the command line::
 
     cmake --build . --config Release
 
+Installing
+==========
 
-## Installing
+* Build the IF97 DLL as indicated above.
 
-* Build the if97 DLL in Visual Studio.  The project will automatically copy the DLL and function documentation to the appropriate Mathcad installation directory.  You may have to allow user write access to both:
+Mathcad 15
+----------
+* Copy the Release/IF97.dll file to C:\\Program Files (x86)\\Mathcad\\Mathcad 15\\userefi or equivalent for your version of Mathcad.    
+* **Mathcad 15 Only:** Copy the IF97_EN.xml to C:\\Program Files (x86)\\Mathcad\\Mathcad 15\\doc\\funcdoc.  Functions and descriptions will then be available in the Mathcad 15 interface under Insert|Function or the Functions button on the toolbar.
 
-	``C:\Program Files (x86)\Mathcad\Mathcad 15\userefi``
-	
-    and
-		
-	``C:\Program Files (x86)\Mathcad\Mathcad 15\doc\funcdoc``
+Mathcad Prime
+----------
+* Copy the Release/IF97.dll file to `C:\\Program Files\\PTC\\Mathcad Prime 3.1\\Customer Functions` or equivalent for your version of Mathcad Prime.
 
-* Follow the above instructions for use.
 
-## Compiler Flags
-
+Compiler Flags
+==============
 The Mathcad wrapper code uses the ``REGION3_ITERATE`` flag to provide more accurate (but slightly slower) calculation of density in Region 3 (mostly super-critical) and does not use the ``IAPWS_UNITS`` flag, leaving all input/output values in SI units.
