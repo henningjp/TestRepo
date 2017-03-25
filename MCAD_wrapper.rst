@@ -5,8 +5,7 @@ This wrapper will provide User Defined (Custom) Functions in Mathcad 15 (or Prim
 
 This wrapper been developed and tested on Mathcad 15.0 (any maintenance release) and Mathcad Prime 3.0/3.1.  It May work on earlier versions of Mathcad and Mathcad Prime, but it has not been tested there.
 
-"  "
-"  "
+======
 
 To Use
 ======
