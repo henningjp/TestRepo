@@ -26,7 +26,8 @@ Pre-Requisites
 * You will need CMake version 2.8.12 or later from https://cmake.org/download/
 * You will need to install Git-SCM for Windows.  You can install this from https://git-for-windows.github.io
 
-### Download the IF97 Repository
+Download the IF97 Repository
+----------------------------
 
 * Open a Git window at the drive location where you want to create your local IF97 repository
 
@@ -38,24 +39,24 @@ Pre-Requisites
 
     cd IF97
 
-### Building for Mathcad 15
+Building for Mathcad 15
+-----------------------
 
-* **Go to the top level CoolProp directory and make a build directory** (something like \build15)::
+* Go to the top level CoolProp directory and make a build directory (something like \build15)::
 
     mkdir build15 
     cd build15
 
-* **Build the makefile using CMake** (Note: Mathcad 15 is 32-bit)::
+* Build the makefile using CMake (Note: Mathcad 15 is 32-bit)::
 
     cmake .. -DCOOLPROP_MATHCAD15_MODULE=ON 
              -DCOOLPROP_MATHCAD15_ROOT="C:/Program Files (x86)/Mathcad/Mathcad 15"  
              -G "Visual Studio 10 2010" 
              -DCMAKE_VERBOSE_MAKEFILE=ON 
 
-* **Make the dynamic library (DLL)**::
+* Open the resulting IF97.sln file in Visual Studio and build the IF97 project, making sure that `Release` and `x64` are selected in the configuration and platform.  Alternatively, you can make the dynamic library (DLL) from the command line::
 
     cmake --build . --config Release
-
 
 
 ## Installing
