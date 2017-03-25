@@ -93,7 +93,7 @@ Mathcad 15
 
 Mathcad Prime
 ----------
-* Copy the ``Release\IF97.dll`` file to ``C:\Program Files\PTC\Mathcad Prime 3.1\Customer Functions`` or equivalent for your version of Mathcad Prime.
+* Copy the ``Release\IF97.dll`` file to ``C:\Program Files\PTC\Mathcad Prime 3.1\Custom Functions`` or equivalent for your version of Mathcad Prime.
 
 
 Compiler Flags
