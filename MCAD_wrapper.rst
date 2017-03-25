@@ -88,12 +88,12 @@ Installing
 
 Mathcad 15
 ----------
-* Copy the ``Release\\IF97.dll`` file to ``C:\\Program Files (x86)\\Mathcad\\Mathcad 15\\userefi`` or equivalent for your version of Mathcad.    
-* **Mathcad 15 Only:** Copy the IF97_EN.xml to C:\\Program Files (x86)\\Mathcad\\Mathcad 15\\doc\\funcdoc.  Functions and descriptions will then be available in the Mathcad 15 interface under Insert|Function or the Functions button on the toolbar.
+* Copy the ``Release\IF97.dll`` file to ``C:\Program Files (x86)\Mathcad\Mathcad 15\userefi`` or equivalent for your version of Mathcad.    
+* **Mathcad 15 Only:** Copy the ``IF97_EN.xml`` to ``C:\Program Files (x86)\Mathcad\Mathcad 15\doc\funcdoc``.  Functions and descriptions will then be available in the Mathcad 15 interface under Insert|Function or the Functions button on the toolbar.
 
 Mathcad Prime
 ----------
-* Copy the ``Release\\IF97.dll`` file to ``C:\\Program Files\\PTC\\Mathcad Prime 3.1\\Customer Functions`` or equivalent for your version of Mathcad Prime.
+* Copy the ``Release\IF97.dll`` file to ``C:\Program Files\PTC\Mathcad Prime 3.1\Customer Functions`` or equivalent for your version of Mathcad Prime.
 
 
 Compiler Flags
