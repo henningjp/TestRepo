@@ -31,7 +31,7 @@ Download the IF97 Repository
 
 * Open a Git window at the drive location where you want to create your local IF97 repository
 
-* Clone the CoolProp/IF97 library to a local repository (If you haven't already cloned it recursively with CoolProp).::
+* Clone the CoolProp/IF97 repository to a local repository (If you haven't already cloned it recursively with CoolProp).::
 
     git clone https://github.com/CoolProp/IF97
 
@@ -64,7 +64,7 @@ Make the Build for Mathcad Prime
     mkdir buildPrime
     cd buildPrime
 
-* Build the makefile using CMake (Note: Mathcad 15 is 32-bit)::
+* Build the makefile using CMake (Note: Mathcad Prime is 64-bit)::
 
     cmake .. -DIF97_PRIME_MODULE=ON 
              -DIF97_PRIME_ROOT="C:/Program Files (x86)/Mathcad/Mathcad 15"  
@@ -72,11 +72,12 @@ Make the Build for Mathcad Prime
              -DCMAKE_VERBOSE_MAKEFILE=ON 
 	     
 	     (Insert your version of Visual Studio for the -G option.)
+	     (Note that Prime is 64-bit and requires the -Win64 switch on this command)
 
 Build the Project
 -----------------
 
-* Open the resulting IF97.sln file in Visual Studio and build the IF97 project, making sure that `Release` and `x64` are selected in the configuration and platform.  Alternatively, you can make the dynamic library (DLL) from the command line::
+* Open the resulting IF97.sln file in Visual Studio and build the IF97 project, making sure that ``Release`` configuration is selected and the  the configuration and platform.  Alternatively, you can make the dynamic library (DLL) from the command line::
 
     cmake --build . --config Release
 
@@ -87,12 +88,12 @@ Installing
 
 Mathcad 15
 ----------
-* Copy the Release/IF97.dll file to C:\\Program Files (x86)\\Mathcad\\Mathcad 15\\userefi or equivalent for your version of Mathcad.    
+* Copy the ``Release\\IF97.dll`` file to ``C:\\Program Files (x86)\\Mathcad\\Mathcad 15\\userefi`` or equivalent for your version of Mathcad.    
 * **Mathcad 15 Only:** Copy the IF97_EN.xml to C:\\Program Files (x86)\\Mathcad\\Mathcad 15\\doc\\funcdoc.  Functions and descriptions will then be available in the Mathcad 15 interface under Insert|Function or the Functions button on the toolbar.
 
 Mathcad Prime
 ----------
-* Copy the Release/IF97.dll file to `C:\\Program Files\\PTC\\Mathcad Prime 3.1\\Customer Functions` or equivalent for your version of Mathcad Prime.
+* Copy the ``Release\\IF97.dll`` file to ``C:\\Program Files\\PTC\\Mathcad Prime 3.1\\Customer Functions`` or equivalent for your version of Mathcad Prime.
 
 
 Compiler Flags
