@@ -83,7 +83,7 @@ Build the Project
 Installing
 ==========
 
-* Build the IF97 DLL as indicated above.
+* Build the IF97 DLL as indicated above and then copy the wrapper files to the appropriate Mathcad 15 or Prime directories as follows.
 
 Mathcad 15
 ----------
