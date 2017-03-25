@@ -15,9 +15,9 @@ To Use
 * Install the Add-in files by copying them to the appropriate Mathcad 15/Prime Installation directories.  
 
 * View ``if97_verification.xmcdz`` or ``if97_verification.pdf`` for examples of using the functions.
-  
-  
-  
+
+------
+
 To Build
 ========
 
@@ -85,7 +85,7 @@ Build the Project
 
     cmake --build . --config Release
   
-  "  "
+------
   
 Installing
 ==========
@@ -101,7 +101,7 @@ Mathcad Prime
 ----------
 * Copy the ``Release\IF97.dll`` file to ``C:\Program Files\PTC\Mathcad Prime 3.1\Custom Functions`` or equivalent for your version of Mathcad Prime.
   
-  
+------
   
 Compiler Flags
 ==============
