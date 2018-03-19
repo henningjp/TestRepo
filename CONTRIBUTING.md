@@ -1,4 +1,4 @@
-# Contributing to Atom
+# Contributing to CoolProp
 
 Thank you for taking the time to contribute!
 
@@ -53,7 +53,7 @@ Issues are tracked as [GitHub issues](https://guides.github.com/features/issues/
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
 * **Use a clear and descriptive title** for the issue to identify the problem.
-* **Describe the exact steps which reproduce the problem** in as many details as possible. For example, start by explaining how you started Atom, e.g. which command exactly you used in the terminal, or how you started Atom otherwise. When listing steps, **don't just say what you did, but explain how you did it**. For example, if you moved the cursor to the end of a line, explain if you used the mouse, or a keyboard shortcut or an Atom command, and if so which one?
+* **Describe the exact steps which reproduce the problem** in as many details as possible. For example, start by explaining how you started CoolProp, e.g. which command exactly you used in the terminal, or how you started CoolProp otherwise. When listing steps, **don't just say what you did, but explain how you did it**. 
 * **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 * **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
 * **Explain which behavior you expected to see instead and why.**
@@ -63,7 +63,7 @@ Explain the problem and include additional details to help maintainers reproduce
 Provide more context by answering these questions:
 
 * **Did the problem start happening recently** (e.g. after updating to a new version of CoolProp) or was this always a problem?
-* If the problem started happening recently, **can you reproduce the problem in an older version of CoolProp or on a different OS?** What's the most recent version in which the problem doesn't happen? You can download older versions of Atom from [the releases page](https://github.com/atom/atom/releases).
+* If the problem started happening recently, **can you reproduce the problem in an older version of CoolProp or on a different OS?** What's the most recent version in which the problem doesn't happen? 
 * **Can you reliably reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
 * If the problem is related to working with a specific fluid, **does the problem happen for all fluids or only some?**
 
@@ -87,7 +87,7 @@ Before creating enhancement suggestions, please check [this list](#before-submit
 
 #### How Do I Submit A (Good) Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#atom-and-packages) your enhancement suggestion is related to, create an issue on that repository and provide the following information:
+Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue on that repository and provide the following information:
 
 * **Use a clear and descriptive title** for the issue to identify the suggestion.
 * **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
