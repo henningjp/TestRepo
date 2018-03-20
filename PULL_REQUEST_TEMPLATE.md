@@ -24,7 +24,6 @@ worked with the wrapper code being implemented, so please walk us through the co
 ### Verification Process
 
 <!--
-
 What process did you follow to verify that your change has the desired effects?
 
 - How did you verify that all new functionality works as expected?
@@ -32,10 +31,10 @@ What process did you follow to verify that your change has the desired effects?
 - How did you verify that the change has not introduced any regressions?
 
 Describe the actions you performed (e.g. text you typed, commands you ran, etc.), and describe the results you observed.  
-Paste python test session or image capture of testing in other wrappers here.
 
+Please attach here any python test sessions or image captures of testing in other wrappers.
 -->
 
 ### Applicable Issues
 
-<!-- Enter any applicable Issues here.  Use Closes #???? of this PR closes an open issue. -->
+[Enter any applicable Issues here.  Use ``Closes #????`` of this PR closes an open issue.]
