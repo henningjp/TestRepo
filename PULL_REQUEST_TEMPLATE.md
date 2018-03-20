@@ -37,4 +37,4 @@ Please attach here any python test sessions or image captures of testing in othe
 
 ### Applicable Issues
 
-[Enter any applicable Issues here.  Use ``Closes #????`` of this PR closes an open issue.]
+[Enter any applicable Issues here.  Use ``Closes #????`` if this PR closes an open issue.]
