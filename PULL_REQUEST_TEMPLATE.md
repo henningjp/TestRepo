@@ -1,6 +1,7 @@
 ### Requirements
 
 * Fill out this template to the extent possible so that this PR can be reviewed in a timely manner.
+* Replace the bracketed text below with your own.
 * All new code requires tests to ensure against regressions.
 
 ### Description of the Change
