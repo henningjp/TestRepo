@@ -10,11 +10,11 @@
 
 ### Benefits
 
-<!-- What benefits will be realized by the code change? -->
+[ *What benefits will be realized by the code change?* ]
 
 ### Possible Drawbacks
 
-<!-- What are the possible side-effects or negative impacts of the code change? -->
+[ *What are the possible side-effects or negative impacts of the code change?* ]
 
 ### Verification Process
 
