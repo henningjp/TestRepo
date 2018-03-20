@@ -111,7 +111,7 @@ Both issue lists are sorted by total number of comments. While not perfect, numb
 
 CoolProp can be developed locally on your machine.  Once code changes are completed and tested, make a Pull Request (PR) to the CoolProp repository.  Please see the [Wiki](https://github.com/CoolProp/CoolProp/wiki) on contributing to CoolProp.  
 
-### Pull Requests (PR)
+### Pull Requests (PRs)
 
 * Fill in [the required template](PULL_REQUEST_TEMPLATE.md)
 * Do not include issue numbers in the PR title
