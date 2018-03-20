@@ -4,7 +4,7 @@ Frequently Asked Questions
 Usage
 -----
 
-1. My enthalpy and entropy values are not the same as what are used in REFPROP, or EES, or ...
+1. **My enthalpy and entropy values are not the same as what are used in REFPROP, or EES, or ...**
 
     Values for enthalpy, entropy and internal energy are calculated as *differences* 
     with respect to an arbitrarily chosen reference state. 
@@ -16,12 +16,12 @@ Usage
     NBP: saturated liquid (Q=0) at p=101325.0 Pa
     
     
-2. My calls to REFPROP fail with a mysterious `Segementation Fault`: 
+2. **My calls to REFPROP fail with a mysterious `Segementation Fault`:** 
 
     Make sure that you have at least REFPROP version 9.1 installed. If you have a license for 9.0, 
     the upgrade is for free: http://www.nist.gov/srd/nist23.cfm
     
-3. Transport properties missing
+3. **Transport properties missing**
 
     a. Fluid XY does not have viscosity/thermal conductivity/ ... 
 
@@ -41,7 +41,7 @@ Usage
 Compilation
 -----------
 
-1. I'm on linux and I get compilation errors like
+1. **I'm on linux and I get compilation errors like**
 
     ```
     gcc: error trying to exec 'cc1plus': execvp: No such file or directory
@@ -62,7 +62,7 @@ Compilation
     sudo apt-get install g++
     ```
     
-2. Building Python wrapper on Windows fails with an error similar to
+2. **Building Python wrapper on Windows fails with an error similar to**
 
     ```
     error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": http://landinghub.visualstudio.com/visual-cpp-build-tools
