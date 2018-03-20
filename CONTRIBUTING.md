@@ -132,5 +132,5 @@ CoolProp can be developed locally on your machine.  Once code changes are comple
 
 ## Additional Notes
 
-[beginner]:https://github.com/CoolProp/CoolProp?q=is%3Aopen+is%3Aissue+label%3Abeginner+sort%3Acomments-desc
-[help-wanted]:https://github.com/CoolProp/CoolProp?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+sort%3Acomments-desc
+[beginner]:https://github.com/CoolProp/CoolProp/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner+sort%3Acomments-desc
+[help-wanted]:https://github.com/CoolProp/CoolProp/issues?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+sort%3Acomments-desc
