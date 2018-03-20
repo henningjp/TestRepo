@@ -12,7 +12,7 @@ The following is a set of guidelines for contributing to CoolProp and its submod
   * [Reporting Bugs](#reporting-bugs)
   * [Suggesting Enhancements](#suggesting-enhancements)
   * [Your First Code Contribution](#your-first-code-contribution)
-  * [Pull Requests](#pull-requests-PR)
+  * [Pull Requests](#pull-requests-prs)
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
