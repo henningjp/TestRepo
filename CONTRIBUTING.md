@@ -16,7 +16,7 @@ The following is a set of guidelines for contributing to CoolProp and its submod
 
 [Styleguides](#styleguides)
   * [Git Commit Messages](#git-commit-messages)
-  * [C++ Code](#c++-code-style-guidance)
+  * [C++ Code](https://github.com/CoolProp/CoolProp/wiki/Coding-Guidelines)
 
 [Additional Notes](#additional-notes)
   * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
