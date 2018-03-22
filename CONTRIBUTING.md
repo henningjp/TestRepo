@@ -18,9 +18,6 @@ The following is a set of guidelines for contributing to CoolProp and its submod
   * [Git Commit Messages](#git-commit-messages)
   * [C++ Code](https://github.com/CoolProp/CoolProp/wiki/Coding-Guidelines)
 
-[Additional Notes](#additional-notes)
-  * [Issue and Pull Request Labels](#issue-and-pull-request-labels)
-
 ## I don't want to read this whole thing I just have a question!!!
 
 > **Note:** Please don't file an issue to ask a question. You'll get faster results by using the resources below.
@@ -129,8 +126,6 @@ CoolProp can be developed locally on your machine.  Once code changes are comple
 * Limit the first line to 72 characters or less
 * Reference issues and pull requests liberally after the first line
 * When only changing documentation (i.e. no actual code), include `[ci skip]` in the commit title
-
-## Additional Notes
 
 [beginner]:https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3Abeginner+user%3Acoolprop
 [help-wanted]:https://github.com/search?q=is%3Aopen+is%3Aissue+label%3Ahelp-wanted+user%3Acoolprop  
