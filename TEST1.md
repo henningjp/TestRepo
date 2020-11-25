@@ -8,7 +8,7 @@ Does it work?
 
 <details>
 <summary>Drop-down Options</summary>
-  This is a dropdown with text!  
+  This is a dropdown with text!  <br>
      - Let's see what we can put in here? 
      - Mixed text and lists? 
    
