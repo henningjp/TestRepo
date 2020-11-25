@@ -3,3 +3,4 @@ This is a test repository for experimenting with Github and testing markdown and
 
 [Contributing](CONTRIBUTING.md)
 
+[Test File #1](TEST1.md)
