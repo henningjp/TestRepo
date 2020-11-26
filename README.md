@@ -8,7 +8,7 @@ This is a test repository for experimenting with Github and testing markdown and
 <details>
    <summary><b>Using the Legacy (v9.x) API Functions</b></summary>
  
-These steps in the instructions file noted above are also outlined below for completeness (outside of Mathematica) and for direct application in any Mathematica notebook (.nb) or WL script (.wls).
+<br>These steps in the instructions file noted above are also outlined below for completeness (outside of Mathematica) and for direct application in any Mathematica notebook (.nb) or WL script (.wls).
 
 ## Loading RefpropLink from within Mathematica
 
