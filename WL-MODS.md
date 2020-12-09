@@ -19,7 +19,15 @@ These enhancements were added to the original RefpropLink package written by Wol
 
 7. Take any length array in the composition parameter.  Each function automatically trims and zero-pads the array to (`$ncmax = 20`) elements for consistency with the expected Fortran array length in the REFPROP DLL.
 
-8. Use NETBlock[] all functions that create NETObjects.  This will _Release_ these objects when returning from the function call to avoid memory leaks.
+8. Functions added to original set:
+   - SATTdll
+   - WMOL, WMOLI
+   
+## To Do
+   
+- Pad all string NETObjects to their appropriate maxlength.  Ensures parameter alignment with the expected Fortran parameter strings at fixed lengths.  The .NET objects being used to pass the parameters back and forth from the DLL functions **_may_** already take care of this, there don't seem to be any alignment errors generated, but we're doing it anyway to be sure.
+
+- Use NETBlock[] all functions that create NETObjects.  This will _Release_ these objects when returning from the function call to avoid memory leaks.
    ```Mathematica
    func[]:=
       NETBlock[
@@ -28,8 +36,4 @@ These enhancements were added to the original RefpropLink package written by Wol
          ]
       ]
    ``` 
-
-## To Do
-   
-- Pad all string NETObjects to their appropriate maxlength.  Ensures parameter alignment with the expected Fortran parameter strings at fixed lengths.  The .NET objects being used to pass the parameters back and forth from the DLL functions **_may_** already take care of this, there don't seem to be any alignment errors generated, but we're doing it anyway to be sure.
 
